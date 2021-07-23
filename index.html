@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+    
+<header>
+    <div class="img"><img src="1.jpg" alt="My photo"> </div>
+    <div class="bio"> 
+        <h1>Ilya Okunev</h1>
+        <article>I want to become a front-end developer. According to my studying experience i think i can achieve good results. Before i worked for 3 years as economist so i think have enough patience to study and "mathimatical thinking".
+I tried to learn <b>HTML</b> and <b>Css</b> about 5 years ago, but now i have not a huge amount of knowledge in this language. Also i have basic <b>Javascript</b> knowledge.</article>
+        <div id="cont-cont">
+            <h2>Contact information:</h2>
+            <ul class="contact"> 
+                <li id="mail"> ✉ : <a href="mailto:zhoramc1@gmail.com">zhoramc1@gmail.com</a></li>
+                <li id="phone_number">☎ +375(29)197-97-99</li>
+            </ul>
+        </div>
+    </div> 
+    
+</header>
+<section class="main">
+    <div class="code"><h2>My codewars code:</h2> <pre>
+const sumSquareEvenRootOdd = ns => {
+let sum=0;
+
+for (let k in ns){
+
+if (ns[k] % 2 ==0) {ns[k]=(ns[k]**2);                     
+}; 
+if (ns[k] % 2 !=0) {ns[k]=Math.sqrt(ns[k]);                     
+};
+sum+=ns[k];
+
+}
+return +sum.toFixed(2);
+
+};      
+</pre></div> 
+
+        <div class="text"> <h2>Experience and Education</h2>
+          <p>Unfortunately my only course experience is rsschool 2020q3 course that i abandoned after a month because of lack of time. </p>
+          <p>I finished speciality public administration and economy in the Academy of Public Administration under the President of the Republic of Belarus in budgetary form of education.</p>
+          <p>I have <b>B2</b> level of English, if 40-minutes online free test can give a presentation of it, and A1 Spanish. Main part of my practice was speaking with people in foreign european counties when i was on vocations and about 2-3 meetings with ambassadors of Latin American countries in University.</p>
+          <ul> <h2>My IT skills list:</h2>
+            <li>Basic HTML and Css</li>
+            <li>Basic Javascript</li>
+        </ul>
+        </div>
+
+</section>
+<footer>
+    <a href="https://github.com/ilyaokunev" id="git">My GitHub link</a>
+    <span>2021</span>
+    <a href="https://rs.school/js/" id="link"> <img src="rs_school_js.svg" alt="rs_school_logo_with_link"> </a>
+
+
+</footer>
+
+</body>
+</html>
