@@ -1,0 +1,108 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgba(255, 127, 80, 0.525);
+  display: flex;
+  align-items: center;
+}
+.bio {
+  font: 24px sans-serif;
+  padding: 10px 30px;
+  margin: auto;
+  width: 65%;
+}
+.bio h1 {
+  font: 2em serif;
+}
+
+img {
+  position: relative;
+  top: 60px;
+  margin-left: 40px;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.contact {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  font: bold 0.7em sans-serif;
+}
+
+.contact > * {
+  margin: auto 20px;
+
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 3px solid rgba(125, 124, 124, 1);
+  margin-top: 50px;
+}
+
+.code {
+  width: 33%;
+}
+
+h2 {
+  text-align: center;
+}
+
+pre {
+  padding: 10px;
+  background-color: rgba(255, 127, 80, 0.525);
+  border: 2px solid royalblue;
+  border-radius: 20px 10px 10px 0px;
+}
+
+.text {
+  margin-right: -5%;
+  margin-left: 30px;
+  width: 40%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid rgba(125, 124, 124, 1);
+}
+
+footer #git {
+  font-size: 30px;
+}
+
+footer img {
+  margin: auto;
+  position: relative;
+  top: 15px;
+  width: 120px;
+}
+
+footer > * {
+  font-size: 30px;
+  margin: 0 10%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.text ul {
+  list-style:circle;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#cont-cont {
+  white-space: normal;
+  display: flex;
+  
+}
